@@ -7,7 +7,9 @@ trait SparkApp[O <: DataType] extends Logging {
   // method that starts spark
   def getSparkSession(args: Array[String]): SparkSession = {
 
-    val sparkSession = SparkSession.builder.appName("dataEngineeringChallenge").master("local[2]").getOrCreate()
+    val sparkSession = SparkSession.builder.appName("datasetApp")
+    //.master("local[2]")
+    .getOrCreate()
 
     return sparkSession
 
