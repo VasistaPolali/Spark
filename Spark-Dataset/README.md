@@ -9,5 +9,5 @@ It redas the json file under `/etl/src/main/resources` and calculates the _net_ 
 When computing the net value, the following things have been taken into consideration:
 7% VAT applied to cold foods, 15% to hot foods and 9% on beverages.
 
-To run:
+To run
 sbt run "input file location" "output file location"
