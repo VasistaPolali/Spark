@@ -10,4 +10,4 @@ When computing the net value, the following things have been taken into consider
 7% VAT applied to cold foods, 15% to hot foods and 9% on beverages.
 
 To run
-sbt run "input file location" "output file location"
+`sbt run <input file location> <output file location>`
